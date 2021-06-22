@@ -9,7 +9,7 @@ For the time being its Windows only, though it might be relatively easy to port 
 
 # Demo video
 
-
+https://vimeo.com/manage/videos/566190901
 
 # Setup
 
