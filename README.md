@@ -1,4 +1,4 @@
-# blenderVersionSelector
+# Blender Version Selector
 Blender version selector automatically picks the correct Blender version when you double-click a .blend file based on which version of Blender the file was last saved in!
 
 Essentially this is useful for anyone that frequently use different versions of Blender on the same computer & for different projects. For my particular usecase I originally developed this as I use one Blender version for my Armory 3D projects and another more recent version for other projects as I tend to love using alpha/beta releases (of which Armory typically doesnt support).
