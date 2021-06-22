@@ -7,6 +7,10 @@ If the version selector fails to find a version on your system that matches the 
 
 For the time being its Windows only, though it might be relatively easy to port considering the entire application is under 300 lines of code.
 
+# Blender Artists thread:
+
+https://blenderartists.org/t/blender-version-selector/1311866/2
+
 # Demo video
 
 https://vimeo.com/manage/videos/566190901
