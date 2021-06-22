@@ -1,0 +1,10 @@
+{
+    "blenderInstallations": {
+        "293": {
+            "executablePath": "C:/Program Files/Blender Foundation/BlenderLTS 2.93/blender-2.93.0-5368859a669d-windows64"
+        },
+        "300": {
+            "executablePath": "C:/Program Files/Blender Foundation/blender-3.0.0-alpha+master.94c4a9995e43-windows.amd64-release/blender-3.0.0-alpha+master.94c4a9995e43-windows.amd64-release"
+        }
+    }
+} 
