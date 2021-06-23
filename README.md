@@ -44,6 +44,6 @@ Anyone is welcome to contribute, simply open a PR with your suggested changes an
 
 Compiles with cl.exe directly from the cmd line like so: 
 ```cl main.cpp -o main -Zi```
-cl.exe is a part of MVSC and comes installed with Visual Studio or Visual Studio Build Tools.
+cl.exe is a part of MVSC and comes installed with Visual Studio or Visual Studio Build Tools. The `-Zi` flag includes debugging symbols, so its optional if you're not planning to run a debugger on it.
 
 See: https://docs.microsoft.com/en-us/cpp/build/reference/compiler-options?view=msvc-160 , https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019
