@@ -186,6 +186,7 @@ int prepare()
     if (settingsFile.is_open())
     {
         settingsFile >> jsonSettings;
+        settingsFile.close();
     } else
     {
         cout << "\nCannot open the settings.json file! \nClose all text editors and any potential other instances of this software and try again\n";
@@ -220,6 +221,7 @@ int startedWithFile(string filePath)
     blendFile.open(filePath);
     char textFromBlendFile[] = ".................";
     blendFile >> textFromBlendFile; // All the dots will now have been replaced by the first characters in the file documment provided by our text based path
+    blendFile.close();
 
     startBlenderVersionBasedOn_textFromBlendFile:
     string textFromBlendFileStringVersion = textFromBlendFile;
@@ -315,6 +317,7 @@ int open(string pathToBlenderDirExcludingExecutableFileName, string pathToBlendF
         pathToBlenderDirExcludingExecutableFileName.push_back('/');
     }
     // string systemCmdToExecute = "powershell -Command ''& \"" + pathToBlenderDirIncludingExecutableFileName + "blender.exe" + "\" \"" + pathToBlendFileIncludingFileNameAndExtension + "\" ''";
+    // string systemCmdToExecute = "\"start \"" + pathToBlenderDirExcludingExecutableFileName + "blender.exe\" " + "\"" + pathToBlenderDirExcludingExecutableFileName + "blender.exe" + "\" ^\"" + pathToBlendFileIncludingFileNameAndExtension + "^\"\"\"";
     string systemCmdToExecute = "\"\"" + pathToBlenderDirExcludingExecutableFileName + "blender.exe" + "\" \"" + pathToBlendFileIncludingFileNameAndExtension + "\"\"";
     
     cout << "\nSystemCmdToExecute:\n    " << systemCmdToExecute.c_str()<<endl;
@@ -401,7 +404,7 @@ int main(int argc, char *argv[])
         std::cout << "\nStarted with file\n";
         startedWithFile(openedBlendFilePath);
     }
-   system("pause");
+//    system("pause");
 //code code code
 return 0;
 }
