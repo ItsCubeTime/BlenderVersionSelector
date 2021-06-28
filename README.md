@@ -13,7 +13,7 @@ https://blenderartists.org/t/blender-version-selector/1311866/2
 
 # Demo video
 
-https://vimeo.com/manage/videos/566190901
+https://vimeo.com/566190901
 
 # How it works
 
