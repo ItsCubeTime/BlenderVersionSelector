@@ -15,6 +15,10 @@ https://blenderartists.org/t/blender-version-selector/1311866/2
 
 https://vimeo.com/manage/videos/566190901
 
+# How it works
+
+![image](https://user-images.githubusercontent.com/20190653/123626919-a5a48b80-d811-11eb-8f5f-8b08037bc0f5.png)
+
 # Setup
 
 * Once you got the binary ready you will have to add the following to your registry like so:
