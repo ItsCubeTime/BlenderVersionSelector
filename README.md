@@ -35,7 +35,7 @@ This adds "main.exe" to Windows "open with" menu.
 Things to keep in mind whilst configuring the settings.json:
 1. Blender version selector assumes the executable to be called "blender.exe".
 2. The settings.json goes in the same folder as your version selector executable
-3. The path to your exe must you **forward slashes**. Backward slashes in the path results in the software shutting down without an error message currently.
+3. The path to your exe must use **forward slashes**. Backward slashes in the path results in the software shutting down without an error message currently as it simply wont be able to find the exe (same as if you would enter an invalid path).
 
 * And now you should be all set! If you run into any problems, please do open an issue or discussion here on Github ( https://github.com/ItsCubeTime/BlenderVersionSelector/ ).
 
