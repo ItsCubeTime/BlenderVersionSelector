@@ -31,6 +31,7 @@ This adds "main.exe" to Windows "open with" menu.
 3. Navigate to the version selector execuatable.
 
 * Lastly you will need to open up the settings.json and replace the templated info with whats relative for your system. Essentially what youre doing here is writing out your Blender versions that you have installed and tell the version selector the path to there install directory (the directory that the Blender executable lives in). 
+
 Things to keep in mind whilst configuring the settings.json:
 1. Blender version selector assumes the executable to be called "blender.exe".
 2. The settings.json goes in the same folder as your version selector executable
